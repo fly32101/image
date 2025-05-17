@@ -1,0 +1,1111 @@
+2025-01-05 02:42:52.096795Z [111] (0x1f9393240) Failed to load personas: Failed to load persona manifest
+2025-01-05 02:42:52.258217Z [111] (0x1f9393240) Discovering loaded persona and setting up asid map
+2025-01-05 02:43:29.076847Z [111] (0x16d42f000) In UMSyncServer: PersonaLoginEvent:ODUUID:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8, uid:248, asid:100004, auid:248
+2025-01-05 02:43:29.077372Z [111] (0x16d42f000) PERSONA LOGIN for USER:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8, UID:248, asid:100004
+2025-01-05 02:43:29.077505Z [111] (0x16d42f000) Session Bag Dir path does not exist, Creating path: /private/var/db//keybags
+2025-01-05 02:43:29.078206Z [111] (0x16d42f000) path /private/var/db//keybags created
+2025-01-05 02:43:29.078294Z [111] (0x16d42f000) No personas for user FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8 found, creating new set of default personas
+2025-01-05 02:43:29.078706Z [111] (0x16d42f000) Creating new persona with ID:1000
+2025-01-05 02:43:29.078873Z [111] (0x16d42f000) Not an Enterprise Persona so skipping creating APFS volume
+2025-01-05 02:43:29.078945Z [111] (0x16d42f000) Created persona 1000 for user <private>
+2025-01-05 02:43:29.079007Z [111] (0x16d42f000) PRINTING ALL 1 Entries of PERSONASESSION
+2025-01-05 02:43:29.079269Z [111] (0x16d42f000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:43:29.079320Z [111] (0x16d42f000) Created Personal Persona Successfully
+2025-01-05 02:43:29.079376Z [111] (0x16d42f000) Found No existing singleton persona, so creating a new one
+2025-01-05 02:43:29.079422Z [111] (0x16d42f000) Creating System Persona
+2025-01-05 02:43:29.079479Z [111] (0x16d42f000) Creating new persona with ID:99
+2025-01-05 02:43:29.079523Z [111] (0x16d42f000) Setup Default Bundles for System
+2025-01-05 02:43:29.079557Z [111] (0x16d42f000) Allocating kernel persona for System/Default PersonaID:99
+2025-01-05 02:43:29.079610Z [111] (0x16d42f000) PersonaID:99 registered with Kernel
+2025-01-05 02:43:29.079689Z [111] (0x16d42f000) Created persona 99 for user <private>
+2025-01-05 02:43:29.079724Z [111] (0x16d42f000) PRINTING ALL 2 Entries of PERSONASESSION
+2025-01-05 02:43:29.079802Z [111] (0x16d42f000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:43:29.079903Z [111] (0x16d42f000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:43:29.079941Z [111] (0x16d42f000) Created System Persona Successfully
+2025-01-05 02:43:29.079974Z [111] (0x16d42f000) Found No existing singleton persona, so creating a new one
+2025-01-05 02:43:29.080002Z [111] (0x16d42f000) Creating Default Persona
+2025-01-05 02:43:29.080031Z [111] (0x16d42f000) Creating new persona with ID:199
+2025-01-05 02:43:29.080059Z [111] (0x16d42f000) Allocating kernel persona for System/Default PersonaID:199
+2025-01-05 02:43:29.080097Z [111] (0x16d42f000) PersonaID:199 registered with Kernel
+2025-01-05 02:43:29.080126Z [111] (0x16d42f000) Created persona 199 for user <private>
+2025-01-05 02:43:29.080153Z [111] (0x16d42f000) PRINTING ALL 3 Entries of PERSONASESSION
+2025-01-05 02:43:29.080223Z [111] (0x16d42f000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:43:29.080357Z [111] (0x16d42f000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:43:29.080405Z [111] (0x16d42f000) 2 PersonaSession is {
+    UserPersonaID = 199;
+    UserPersonaNickName = Default;
+    UserPersonaType = 5;
+    UserPersonaUniqueString = "0C97A9A1-7D63-4512-BC07-AFAADA0F6404";
+}
+2025-01-05 02:43:29.080428Z [111] (0x16d42f000) Created Default Persona Successfully
+2025-01-05 02:43:29.080452Z [111] (0x16d42f000) Creating Universal Persona
+2025-01-05 02:43:29.080489Z [111] (0x16d42f000) Setup Default Bundles for Universal
+2025-01-05 02:43:29.080512Z [111] (0x16d42f000) Created universal persona for user <private>
+2025-01-05 02:43:29.080535Z [111] (0x16d42f000) PRINTING ALL 4 Entries of PERSONASESSION
+2025-01-05 02:43:29.080613Z [111] (0x16d42f000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:43:29.080690Z [111] (0x16d42f000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:43:29.080740Z [111] (0x16d42f000) 2 PersonaSession is {
+    UserPersonaID = 199;
+    UserPersonaNickName = Default;
+    UserPersonaType = 5;
+    UserPersonaUniqueString = "0C97A9A1-7D63-4512-BC07-AFAADA0F6404";
+}
+2025-01-05 02:43:29.080801Z [111] (0x16d42f000) 3 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.mobilecal"
+    );
+    UserPersonaNickName = Universal;
+    UserPersonaType = 4;
+}
+2025-01-05 02:43:29.080826Z [111] (0x16d42f000) Created Universal Persona Successfully
+2025-01-05 02:43:29.083980Z [111] (0x16d42f000) PersonaID:1000 is already loaded to kernel, skipping..
+2025-01-05 02:43:29.084111Z [111] (0x16d42f000) PersonaID:99 is already loaded to kernel, skipping..
+2025-01-05 02:43:29.084164Z [111] (0x16d42f000) PersonaID:199 is already loaded to kernel, skipping..
+2025-01-05 02:43:29.084203Z [111] (0x16d42f000) setup kernel personas
+2025-01-05 02:43:29.084246Z [111] (0x16d42f000) Updating AsidMapping with user UUID:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8 with asid:100004
+2025-01-05 02:43:29.084281Z [111] (0x16d42f000) Update asid:100004 to UUID String:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 02:43:29.964959Z [111] (0x16d42f000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100004
+2025-01-05 02:43:29.965088Z [111] (0x16d42f000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-05 02:43:29.967940Z [111] (0x16d42f000) Successful Persona Observer registration of machServiceName
+2025-01-05 02:45:52.275996Z [111] (0x16d4bb000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100094, auid:501
+2025-01-05 02:45:52.276058Z [111] (0x16d4bb000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100094
+2025-01-05 02:45:52.276093Z [111] (0x16d4bb000) Path: /private/var/db//keybags already exists
+2025-01-05 02:45:52.276110Z [111] (0x16d4bb000) No personas for user 30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F found, creating new set of default personas
+2025-01-05 02:45:52.276140Z [111] (0x16d4bb000) Creating new persona with ID:1001
+2025-01-05 02:45:52.276196Z [111] (0x16d4bb000) Not an Enterprise Persona so skipping creating APFS volume
+2025-01-05 02:45:52.276210Z [111] (0x16d4bb000) Created persona 1001 for user <private>
+2025-01-05 02:45:52.276222Z [111] (0x16d4bb000) PRINTING ALL 4 Entries of PERSONASESSION
+2025-01-05 02:45:52.276290Z [111] (0x16d4bb000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:45:52.276337Z [111] (0x16d4bb000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:45:52.276364Z [111] (0x16d4bb000) 2 PersonaSession is {
+    UserPersonaID = 199;
+    UserPersonaNickName = Default;
+    UserPersonaType = 5;
+    UserPersonaUniqueString = "0C97A9A1-7D63-4512-BC07-AFAADA0F6404";
+}
+2025-01-05 02:45:52.276388Z [111] (0x16d4bb000) 3 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.mobilecal"
+    );
+    UserPersonaNickName = Universal;
+    UserPersonaType = 4;
+}
+2025-01-05 02:45:52.276402Z [111] (0x16d4bb000) PRINTING ALL 1 Entries of PERSONASESSION
+2025-01-05 02:45:52.276428Z [111] (0x16d4bb000) 0 PersonaSession is {
+    UserPersonaID = 1001;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "995A0F35-2996-41FF-8BB7-E9FE48852BBC";
+    UserPersonaUserODUUID = "30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F";
+    UserPersonaUserUID = 501;
+}
+2025-01-05 02:45:52.276439Z [111] (0x16d4bb000) Created Personal Persona Successfully
+2025-01-05 02:45:52.276451Z [111] (0x16d4bb000) Added Singleton 3 Persona
+2025-01-05 02:45:52.276465Z [111] (0x16d4bb000) Added Singleton 5 Persona
+2025-01-05 02:45:52.276483Z [111] (0x16d4bb000) Creating Universal Persona
+2025-01-05 02:45:52.276496Z [111] (0x16d4bb000) Setup Default Bundles for Universal
+2025-01-05 02:45:52.276505Z [111] (0x16d4bb000) Created universal persona for user <private>
+2025-01-05 02:45:52.276516Z [111] (0x16d4bb000) PRINTING ALL 4 Entries of PERSONASESSION
+2025-01-05 02:45:52.276545Z [111] (0x16d4bb000) 0 PersonaSession is {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "726089D8-BDD9-4C0C-91F0-7F07DB46DDA2";
+    UserPersonaUserODUUID = "FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8";
+    UserPersonaUserUID = 248;
+}
+2025-01-05 02:45:52.276575Z [111] (0x16d4bb000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:45:52.276596Z [111] (0x16d4bb000) 2 PersonaSession is {
+    UserPersonaID = 199;
+    UserPersonaNickName = Default;
+    UserPersonaType = 5;
+    UserPersonaUniqueString = "0C97A9A1-7D63-4512-BC07-AFAADA0F6404";
+}
+2025-01-05 02:45:52.276617Z [111] (0x16d4bb000) 3 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.mobilecal"
+    );
+    UserPersonaNickName = Universal;
+    UserPersonaType = 4;
+}
+2025-01-05 02:45:52.276628Z [111] (0x16d4bb000) PRINTING ALL 4 Entries of PERSONASESSION
+2025-01-05 02:45:52.276663Z [111] (0x16d4bb000) 0 PersonaSession is {
+    UserPersonaID = 1001;
+    UserPersonaNickName = Personal;
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "995A0F35-2996-41FF-8BB7-E9FE48852BBC";
+    UserPersonaUserODUUID = "30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F";
+    UserPersonaUserUID = 501;
+}
+2025-01-05 02:45:52.276696Z [111] (0x16d4bb000) 1 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.Preferences",
+        "com.apple.siri",
+        "com.apple.mobilemail",
+        "com.apple.DocumentsApp",
+        "com.apple.CloudKit.ShareBear"
+    );
+    UserPersonaID = 99;
+    UserPersonaNickName = System;
+    UserPersonaType = 3;
+    UserPersonaUniqueString = "B923AB5B-8E6F-4EE0-8BCA-7C582AA605AF";
+}
+2025-01-05 02:45:52.276717Z [111] (0x16d4bb000) 2 PersonaSession is {
+    UserPersonaID = 199;
+    UserPersonaNickName = Default;
+    UserPersonaType = 5;
+    UserPersonaUniqueString = "0C97A9A1-7D63-4512-BC07-AFAADA0F6404";
+}
+2025-01-05 02:45:52.276737Z [111] (0x16d4bb000) 3 PersonaSession is {
+    UserPersonaBundleIDS =     (
+        "com.apple.mobilenotes",
+        "com.apple.mobilecal"
+    );
+    UserPersonaNickName = Universal;
+    UserPersonaType = 4;
+}
+2025-01-05 02:45:52.276746Z [111] (0x16d4bb000) Created Universal Persona Successfully
+2025-01-05 02:45:52.278759Z [111] (0x16d4bb000) PersonaID:1001 is already loaded to kernel, skipping..
+2025-01-05 02:45:52.278787Z [111] (0x16d4bb000) PersonaID:99 is already loaded to kernel, skipping..
+2025-01-05 02:45:52.278802Z [111] (0x16d4bb000) PersonaID:199 is already loaded to kernel, skipping..
+2025-01-05 02:45:52.278813Z [111] (0x16d4bb000) setup kernel personas
+2025-01-05 02:45:52.278831Z [111] (0x16d4bb000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100094
+2025-01-05 02:45:52.278852Z [111] (0x16d4bb000) Update asid:100094 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 02:45:53.516885Z [111] (0x16d4bb000) In UMSyncServer: fetchPersona entitlement failure:720
+2025-01-05 02:45:53.517009Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:924
+2025-01-05 02:45:53.650769Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:652
+2025-01-05 02:45:53.650972Z [111] (0x16d4bb000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100094
+2025-01-05 02:45:53.651045Z [111] (0x16d4bb000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-05 02:45:53.653793Z [111] (0x16d4bb000) Successful Persona Observer registration of machServiceName
+2025-01-05 02:46:06.134985Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1077
+2025-01-05 02:46:06.143159Z [111] (0x16d4bb000) In UMSyncServer: fetchPersona entitlement failure:883
+2025-01-05 02:46:20.258710Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1181
+2025-01-05 02:46:20.314821Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1181
+2025-01-05 02:46:20.317306Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1181
+2025-01-05 02:46:20.320298Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1181
+2025-01-05 02:46:53.503724Z [111] (0x16d4bb000) In UMSyncServer: fetchPersona entitlement failure:1132
+2025-01-05 02:47:40.982133Z [111] (0x16d547000) In UMSyncServer: fetchPersona entitlement failure:1295
+2025-01-05 02:47:40.982256Z [111] (0x16d4bb000) In UMSyncServer: fetchPersona entitlement failure:1297
+2025-01-05 02:48:20.123670Z [111] (0x16d4bb000) In UMSyncServer: fetchPersona entitlement failure:1382
+2025-01-05 03:19:09.673577Z [111] (0x16d547000) In UMSyncServer: fetchPersona entitlement failure:1583
+2025-01-05 03:19:09.674034Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1517
+2025-01-05 03:19:09.699640Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-01-05 03:19:17.156837Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1517
+2025-01-05 03:20:18.938842Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1824
+2025-01-05 03:23:00.568202Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:1875
+2025-01-05 03:50:49.741811Z [111] (0x16d42f000) In UMSyncServer: fetchPersona entitlement failure:2679
+2025-01-05 04:10:56.908568Z [111] (0x16d42f000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-05 04:10:56.908844Z [111] (0x16d42f000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-05 04:10:56.908870Z [111] (0x16d42f000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:10:56.908886Z [111] (0x16d42f000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-05 04:10:56.908899Z [111] (0x16d42f000) Unloaded PersonaID:1001 from Kernel
+2025-01-05 04:10:56.908907Z [111] (0x16d42f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 04:10:56.908915Z [111] (0x16d42f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 04:10:56.908921Z [111] (0x16d42f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 04:10:56.908927Z [111] (0x16d42f000) Saving Persona Manifest during unload
+2025-01-05 04:10:56.911992Z [111] (0x16d42f000) All Persona Unload success
+2025-01-05 04:10:56.912012Z [111] (0x16d42f000) unLoading All persona Success
+2025-01-05 04:10:56.934664Z [111] (0x16d4bb000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100094
+2025-01-05 04:10:56.934737Z [111] (0x16d4bb000)  NO PERSONAL PERSONA found
+2025-01-05 04:10:56.934755Z [111] (0x16d4bb000) Failed to register Persona Observer:com.apple.searchd.personaobserver
+2025-01-05 04:11:08.149821Z [111] (0x16d5d3000) In UMSyncServer: No persona array OK:862
+2025-01-05 04:11:13.165742Z [111] (0x16d5d3000) In UMSyncServer: No persona array OK:862
+2025-01-05 04:11:23.200081Z [111] (0x16d5d3000) In UMSyncServer: No persona array OK:862
+2025-01-05 04:16:08.567125Z [426] (0x1ffa18240) Loaded Persona Generation ID from manifest:1
+2025-01-05 04:16:08.627617Z [426] (0x1ffa18240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 04:16:08.627687Z [426] (0x1ffa18240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 04:16:08.627713Z [426] (0x1ffa18240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 04:16:08.627735Z [426] (0x1ffa18240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 04:16:08.627759Z [426] (0x1ffa18240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:16:08.627784Z [426] (0x1ffa18240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:16:08.627804Z [426] (0x1ffa18240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:16:08.627823Z [426] (0x1ffa18240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:16:08.633088Z [426] (0x1ffa18240) Discovering loaded persona and setting up asid map
+2025-01-05 04:16:27.242003Z [426] (0x16fd13000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100034, auid:501
+2025-01-05 04:16:27.242753Z [426] (0x16fd13000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100034
+2025-01-05 04:16:27.243783Z [426] (0x16fd13000) Path: /private/var/db//keybags already exists
+2025-01-05 04:16:27.243849Z [426] (0x16fd13000) PersonaID:99 not loaded, loading..
+2025-01-05 04:16:27.243892Z [426] (0x16fd13000) PersonaID:1001 not loaded, loading..
+2025-01-05 04:16:27.245988Z [426] (0x16fd13000) PersonaID:199 not loaded, loading..
+2025-01-05 04:16:27.246017Z [426] (0x16fd13000) setup kernel personas
+2025-01-05 04:16:27.246036Z [426] (0x16fd13000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100034
+2025-01-05 04:16:27.246053Z [426] (0x16fd13000) Update asid:100034 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 04:16:39.275481Z [426] (0x16fe2b000) In UMSyncServer: fetchPersona entitlement failure:524
+2025-01-05 04:16:39.544820Z [426] (0x16feb7000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100034
+2025-01-05 04:16:39.544922Z [426] (0x16feb7000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-05 04:16:39.546874Z [426] (0x16feb7000) Successful Persona Observer registration of machServiceName
+2025-01-05 04:16:46.627818Z [426] (0x16feb7000) In UMSyncServer: fetchPersona entitlement failure:999
+2025-01-05 04:17:45.479037Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:1182
+2025-01-05 04:17:45.479218Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:1146
+2025-01-05 04:17:45.481603Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:894
+2025-01-05 04:17:45.512373Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:1182
+2025-01-05 04:17:46.788704Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:1051
+2025-01-05 04:22:08.119605Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:1074
+2025-01-05 04:46:51.454178Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:1731
+2025-01-05 05:17:53.250955Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:1146
+2025-01-05 05:19:42.411825Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:2370
+2025-01-05 05:30:47.141632Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:1146
+2025-01-05 05:30:50.226426Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:2531
+2025-01-05 05:46:13.745838Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:2994
+2025-01-05 06:31:59.348328Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21114
+2025-01-05 06:32:03.819535Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21136
+2025-01-05 06:32:03.820246Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21136
+2025-01-05 06:32:03.826627Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21136
+2025-01-05 06:45:00.175563Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:21424
+2025-01-05 06:48:23.115944Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21494
+2025-01-05 06:48:35.382177Z [426] (0x16fd13000) In UMSyncServer: fetchPersona entitlement failure:21510
+2025-01-05 06:48:51.001359Z [426] (0x16fd9f000) In UMSyncServer: fetchPersona entitlement failure:21531
+2025-01-05 06:50:50.130275Z [426] (0x16fd9f000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-05 06:50:50.130752Z [426] (0x16fd9f000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-05 06:50:50.130970Z [426] (0x16fd9f000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:50:50.130988Z [426] (0x16fd9f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 06:50:50.130999Z [426] (0x16fd9f000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-05 06:50:50.131013Z [426] (0x16fd9f000) Unloaded PersonaID:1001 from Kernel
+2025-01-05 06:50:50.131020Z [426] (0x16fd9f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 06:50:50.131026Z [426] (0x16fd9f000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 06:50:50.131032Z [426] (0x16fd9f000) Saving Persona Manifest during unload
+2025-01-05 06:50:50.133651Z [426] (0x16fd9f000) All Persona Unload success
+2025-01-05 06:50:50.133675Z [426] (0x16fd9f000) unLoading All persona Success
+2025-01-05 06:50:50.137728Z [426] (0x16feb7000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100034
+2025-01-05 06:50:50.137791Z [426] (0x16feb7000)  NO PERSONAL PERSONA found
+2025-01-05 06:50:50.137836Z [426] (0x16feb7000) Failed to register Persona Observer:com.apple.searchd.personaobserver
+2025-01-05 06:51:12.497334Z [140] (0x209950240) Loaded Persona Generation ID from manifest:1
+2025-01-05 06:51:12.527232Z [140] (0x209950240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 06:51:12.527417Z [140] (0x209950240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 06:51:12.527468Z [140] (0x209950240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 06:51:12.527493Z [140] (0x209950240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 06:51:12.527517Z [140] (0x209950240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:51:12.527539Z [140] (0x209950240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:51:12.527558Z [140] (0x209950240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:51:12.527577Z [140] (0x209950240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:51:12.543749Z [140] (0x209950240) Discovering loaded persona and setting up asid map
+2025-01-05 06:51:38.655281Z [140] (0x16fb7f000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-01-05 06:51:38.655380Z [140] (0x16fb7f000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-01-05 06:51:38.655396Z [140] (0x16fb7f000) Path: /private/var/db//keybags already exists
+2025-01-05 06:51:38.655417Z [140] (0x16fb7f000) PersonaID:99 not loaded, loading..
+2025-01-05 06:51:38.655435Z [140] (0x16fb7f000) PersonaID:1001 not loaded, loading..
+2025-01-05 06:51:38.656775Z [140] (0x16fb7f000) PersonaID:199 not loaded, loading..
+2025-01-05 06:51:38.657368Z [140] (0x16fb7f000) setup kernel personas
+2025-01-05 06:51:38.657382Z [140] (0x16fb7f000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-01-05 06:51:38.657392Z [140] (0x16fb7f000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 06:51:40.730496Z [140] (0x16fc0b000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-05 06:51:40.730581Z [140] (0x16fc0b000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-05 06:51:40.732104Z [140] (0x16fc0b000) Successful Persona Observer registration of machServiceName
+2025-01-05 06:51:42.228521Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:560
+2025-01-05 06:51:42.812378Z [140] (0x16fc97000) In UMSyncServer: fetchPersona entitlement failure:592
+2025-01-05 06:51:44.908077Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:635
+2025-01-05 06:59:49.321647Z [140] (0x16fc97000) In UMSyncServer: fetchPersona entitlement failure:947
+2025-01-05 07:07:44.029581Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:1151
+2025-01-05 07:09:00.257147Z [140] (0x16fd23000) In UMSyncServer: fetchPersona entitlement failure:892
+2025-01-05 07:09:00.257253Z [140] (0x16fc97000) In UMSyncServer: fetchPersona entitlement failure:1211
+2025-01-05 07:09:00.257290Z [140] (0x16fdaf000) In UMSyncServer: fetchPersona entitlement failure:505
+2025-01-05 07:09:00.262896Z [140] (0x16fdaf000) In UMSyncServer: fetchPersona entitlement failure:671
+2025-01-05 07:11:44.202867Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:1292
+2025-01-05 07:13:04.209327Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:1327
+2025-01-05 07:13:26.531938Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:594
+2025-01-05 07:44:59.681041Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:3435
+2025-01-05 07:45:34.769363Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:560
+2025-01-05 07:48:11.976631Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:3691
+2025-01-05 07:51:25.418678Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:3899
+2025-01-05 08:01:31.143450Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:4085
+2025-01-05 08:01:31.144399Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:4085
+2025-01-05 08:01:31.154477Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:4085
+2025-01-05 08:01:49.313548Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:4124
+2025-01-05 08:01:49.314631Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:4124
+2025-01-05 08:01:49.319703Z [140] (0x16fc0b000) In UMSyncServer: fetchPersona entitlement failure:4124
+2025-01-05 08:31:26.114262Z [140] (0x16fb7f000) In UMSyncServer: fetchPersona entitlement failure:4336
+2025-01-05 08:37:21.613389Z [140] (0x16fc0b000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-05 08:37:21.613433Z [140] (0x16fc0b000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-05 08:37:21.613452Z [140] (0x16fc0b000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:37:21.613463Z [140] (0x16fc0b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:37:21.613470Z [140] (0x16fc0b000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-05 08:37:21.613483Z [140] (0x16fc0b000) Unloaded PersonaID:1001 from Kernel
+2025-01-05 08:37:21.613488Z [140] (0x16fc0b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:37:21.613494Z [140] (0x16fc0b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:37:21.613499Z [140] (0x16fc0b000) Saving Persona Manifest during unload
+2025-01-05 08:37:21.615418Z [140] (0x16fc0b000) All Persona Unload success
+2025-01-05 08:37:21.615445Z [140] (0x16fc0b000) unLoading All persona Success
+2025-01-05 08:37:42.418727Z [140] (0x1f44d4240) Loaded Persona Generation ID from manifest:1
+2025-01-05 08:37:42.452573Z [140] (0x1f44d4240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 08:37:42.453017Z [140] (0x1f44d4240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 08:37:42.453051Z [140] (0x1f44d4240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 08:37:42.453077Z [140] (0x1f44d4240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-05 08:37:42.453120Z [140] (0x1f44d4240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:37:42.453157Z [140] (0x1f44d4240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:37:42.453182Z [140] (0x1f44d4240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:37:42.453203Z [140] (0x1f44d4240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:37:42.475410Z [140] (0x1f44d4240) Discovering loaded persona and setting up asid map
+2025-01-05 08:38:04.086282Z [140] (0x16d57f000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-01-05 08:38:04.086522Z [140] (0x16d57f000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-01-05 08:38:04.086577Z [140] (0x16d57f000) Path: /private/var/db//keybags already exists
+2025-01-05 08:38:04.086625Z [140] (0x16d57f000) PersonaID:99 not loaded, loading..
+2025-01-05 08:38:04.086692Z [140] (0x16d57f000) PersonaID:1001 not loaded, loading..
+2025-01-05 08:38:04.089287Z [140] (0x16d57f000) PersonaID:199 not loaded, loading..
+2025-01-05 08:38:04.091107Z [140] (0x16d57f000) setup kernel personas
+2025-01-05 08:38:04.091173Z [140] (0x16d57f000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-01-05 08:38:04.091221Z [140] (0x16d57f000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:38:05.125774Z [140] (0x16d60b000) In UMSyncServer: fetchPersona entitlement failure:486
+2025-01-05 08:38:05.127822Z [140] (0x16d60b000) In UMSyncServer: fetchPersona entitlement failure:448
+2025-01-05 08:38:05.546068Z [140] (0x16d697000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-05 08:38:05.546193Z [140] (0x16d697000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-05 08:38:05.547864Z [140] (0x16d697000) Successful Persona Observer registration of machServiceName
+2025-01-05 08:38:06.982022Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:536
+2025-01-05 08:38:08.703099Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:598
+2025-01-05 08:38:08.761745Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:598
+2025-01-05 08:38:08.770198Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:598
+2025-01-05 08:38:08.775359Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:598
+2025-01-05 08:38:08.785401Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:598
+2025-01-05 08:48:05.158003Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:842
+2025-01-05 08:48:05.159071Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:842
+2025-01-05 08:48:05.163797Z [140] (0x16d697000) In UMSyncServer: fetchPersona entitlement failure:842
+2025-01-05 08:53:08.195062Z [140] (0x16d60b000) In UMSyncServer: fetchPersona entitlement failure:888
+2025-01-05 08:58:57.098742Z [140] (0x16d60b000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-05 08:58:57.098830Z [140] (0x16d60b000) registerPersonaObserverService: machservice already present: com.apple.searchd.personaobserver
+2025-01-05 08:58:57.098849Z [140] (0x16d60b000) Successful Persona Observer registration of machServiceName
+2025-01-05 08:58:57.138644Z [140] (0x16d60b000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-05 08:58:57.138669Z [140] (0x16d60b000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-05 08:58:57.138680Z [140] (0x16d60b000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-05 08:58:57.138693Z [140] (0x16d60b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:58:57.138704Z [140] (0x16d60b000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-05 08:58:57.138717Z [140] (0x16d60b000) Unloaded PersonaID:1001 from Kernel
+2025-01-05 08:58:57.138725Z [140] (0x16d60b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:58:57.138734Z [140] (0x16d60b000) Skipping unloading of Universal,System, System Proxy
+2025-01-05 08:58:57.138740Z [140] (0x16d60b000) Saving Persona Manifest during unload
+2025-01-05 08:58:57.141002Z [140] (0x16d60b000) All Persona Unload success
+2025-01-05 08:58:57.141021Z [140] (0x16d60b000) unLoading All persona Success
+2025-01-06 11:58:06.999820Z [140] (0x2051c0240) Loaded Persona Generation ID from manifest:1
+2025-01-06 11:58:07.015081Z [140] (0x2051c0240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 11:58:07.015211Z [140] (0x2051c0240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 11:58:07.015262Z [140] (0x2051c0240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 11:58:07.015301Z [140] (0x2051c0240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 11:58:07.015405Z [140] (0x2051c0240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 11:58:07.015447Z [140] (0x2051c0240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 11:58:07.015541Z [140] (0x2051c0240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 11:58:07.015583Z [140] (0x2051c0240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 11:58:07.027436Z [140] (0x2051c0240) Discovering loaded persona and setting up asid map
+2025-01-06 11:58:18.968559Z [140] (0x16fa93000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100004, auid:501
+2025-01-06 11:58:18.968830Z [140] (0x16fa93000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100004
+2025-01-06 11:58:18.968927Z [140] (0x16fa93000) Path: /private/var/db//keybags already exists
+2025-01-06 11:58:18.968993Z [140] (0x16fa93000) PersonaID:99 not loaded, loading..
+2025-01-06 11:58:18.969052Z [140] (0x16fa93000) PersonaID:1001 not loaded, loading..
+2025-01-06 11:58:18.971728Z [140] (0x16fa93000) PersonaID:199 not loaded, loading..
+2025-01-06 11:58:18.972007Z [140] (0x16fa93000) setup kernel personas
+2025-01-06 11:58:18.972044Z [140] (0x16fa93000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100004
+2025-01-06 11:58:18.972070Z [140] (0x16fa93000) Update asid:100004 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 11:58:19.754266Z [140] (0x16fb1f000) In UMSyncServer: fetchPersona entitlement failure:445
+2025-01-06 11:58:20.287925Z [140] (0x16fa93000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100004
+2025-01-06 11:58:20.288010Z [140] (0x16fa93000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-06 11:58:20.290788Z [140] (0x16fa93000) Successful Persona Observer registration of machServiceName
+2025-01-06 12:38:03.296601Z [140] (0x16fb1f000) In UMSyncServer: fetchPersona entitlement failure:1724
+2025-01-06 12:38:12.234910Z [140] (0x16fb1f000) In UMSyncServer: fetchPersona entitlement failure:1765
+2025-01-06 12:38:12.236143Z [140] (0x16fb1f000) In UMSyncServer: fetchPersona entitlement failure:1765
+2025-01-06 12:38:12.289370Z [140] (0x16fa93000) In UMSyncServer: fetchPersona entitlement failure:1765
+2025-01-06 12:38:35.092444Z [140] (0x16fa93000) In UMSyncServer: fetchPersona entitlement failure:1747
+2025-01-06 12:38:35.121572Z [140] (0x16fa93000) In UMSyncServer: fetchPersona entitlement failure:1747
+2025-01-06 12:50:29.742219Z [140] (0x16fb1f000) In UMSyncServer: fetchPersona entitlement failure:1899
+2025-01-06 12:51:16.777997Z [140] (0x16fa93000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-06 12:51:16.778464Z [140] (0x16fa93000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-06 12:51:16.778653Z [140] (0x16fa93000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:16.778666Z [140] (0x16fa93000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:51:16.778674Z [140] (0x16fa93000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-06 12:51:16.778873Z [140] (0x16fa93000) Unloaded PersonaID:1001 from Kernel
+2025-01-06 12:51:16.778881Z [140] (0x16fa93000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:51:16.778887Z [140] (0x16fa93000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:51:16.778892Z [140] (0x16fa93000) Saving Persona Manifest during unload
+2025-01-06 12:51:16.780445Z [140] (0x16fa93000) All Persona Unload success
+2025-01-06 12:51:16.780462Z [140] (0x16fa93000) unLoading All persona Success
+2025-01-06 12:51:37.282733Z [140] (0x1ed354240) Loaded Persona Generation ID from manifest:1
+2025-01-06 12:51:37.315644Z [140] (0x1ed354240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:51:37.315735Z [140] (0x1ed354240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:51:37.315767Z [140] (0x1ed354240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:51:37.315805Z [140] (0x1ed354240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:51:37.315832Z [140] (0x1ed354240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:37.315854Z [140] (0x1ed354240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:37.315874Z [140] (0x1ed354240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:37.315894Z [140] (0x1ed354240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:37.362433Z [140] (0x1ed354240) Discovering loaded persona and setting up asid map
+2025-01-06 12:51:57.125440Z [140] (0x16dda7000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-01-06 12:51:57.125630Z [140] (0x16dda7000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-01-06 12:51:57.125685Z [140] (0x16dda7000) Path: /private/var/db//keybags already exists
+2025-01-06 12:51:57.125735Z [140] (0x16dda7000) PersonaID:99 not loaded, loading..
+2025-01-06 12:51:57.125785Z [140] (0x16dda7000) PersonaID:1001 not loaded, loading..
+2025-01-06 12:51:57.128761Z [140] (0x16dda7000) PersonaID:199 not loaded, loading..
+2025-01-06 12:51:57.128814Z [140] (0x16dda7000) setup kernel personas
+2025-01-06 12:51:57.128842Z [140] (0x16dda7000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-01-06 12:51:57.128879Z [140] (0x16dda7000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:51:58.201930Z [140] (0x16dda7000) In UMSyncServer: fetchPersona entitlement failure:437
+2025-01-06 12:51:58.656246Z [140] (0x16dda7000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-06 12:51:58.656338Z [140] (0x16dda7000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-06 12:51:58.658316Z [140] (0x16dda7000) Successful Persona Observer registration of machServiceName
+2025-01-06 12:52:20.731765Z [140] (0x16de33000) In UMSyncServer: fetchPersona entitlement failure:626
+2025-01-06 12:53:19.963310Z [140] (0x16de33000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-06 12:53:19.963344Z [140] (0x16de33000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-06 12:53:19.963360Z [140] (0x16de33000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:19.963379Z [140] (0x16de33000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:53:19.963393Z [140] (0x16de33000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-06 12:53:19.963407Z [140] (0x16de33000) Unloaded PersonaID:1001 from Kernel
+2025-01-06 12:53:19.963417Z [140] (0x16de33000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:53:19.963425Z [140] (0x16de33000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:53:19.963433Z [140] (0x16de33000) Saving Persona Manifest during unload
+2025-01-06 12:53:19.965242Z [140] (0x16de33000) All Persona Unload success
+2025-01-06 12:53:19.965264Z [140] (0x16de33000) unLoading All persona Success
+2025-01-06 12:53:39.469400Z [140] (0x201728240) Loaded Persona Generation ID from manifest:1
+2025-01-06 12:53:39.515138Z [140] (0x201728240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:39.515942Z [140] (0x201728240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:39.515984Z [140] (0x201728240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:39.516012Z [140] (0x201728240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:39.516037Z [140] (0x201728240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:53:39.516074Z [140] (0x201728240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:53:39.516106Z [140] (0x201728240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:53:39.516128Z [140] (0x201728240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-06 12:53:39.594154Z [140] (0x201728240) Discovering loaded persona and setting up asid map
+2025-01-06 12:53:47.573801Z [140] (0x16fd7f000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-01-06 12:53:47.573891Z [140] (0x16fd7f000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-01-06 12:53:47.573904Z [140] (0x16fd7f000) Path: /private/var/db//keybags already exists
+2025-01-06 12:53:47.573921Z [140] (0x16fd7f000) PersonaID:99 not loaded, loading..
+2025-01-06 12:53:47.573937Z [140] (0x16fd7f000) PersonaID:1001 not loaded, loading..
+2025-01-06 12:53:47.578917Z [140] (0x16fd7f000) PersonaID:199 not loaded, loading..
+2025-01-06 12:53:47.578932Z [140] (0x16fd7f000) setup kernel personas
+2025-01-06 12:53:47.578944Z [140] (0x16fd7f000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-01-06 12:53:47.578953Z [140] (0x16fd7f000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:53:48.861702Z [140] (0x16fe0b000) In UMSyncServer: fetchPersona entitlement failure:435
+2025-01-06 12:53:48.932266Z [140] (0x16fd7f000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-06 12:53:48.932347Z [140] (0x16fd7f000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-06 12:53:48.934658Z [140] (0x16fd7f000) Successful Persona Observer registration of machServiceName
+2025-01-06 12:54:16.714464Z [140] (0x16fe97000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-06 12:54:16.714506Z [140] (0x16fe97000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-06 12:54:16.714523Z [140] (0x16fe97000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-06 12:54:16.714541Z [140] (0x16fe97000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:54:16.714554Z [140] (0x16fe97000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-06 12:54:16.714572Z [140] (0x16fe97000) Unloaded PersonaID:1001 from Kernel
+2025-01-06 12:54:16.714583Z [140] (0x16fe97000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:54:16.714594Z [140] (0x16fe97000) Skipping unloading of Universal,System, System Proxy
+2025-01-06 12:54:16.714602Z [140] (0x16fe97000) Saving Persona Manifest during unload
+2025-01-06 12:54:16.717019Z [140] (0x16fe97000) All Persona Unload success
+2025-01-06 12:54:16.717389Z [140] (0x16fe97000) unLoading All persona Success
+2025-01-07 12:44:24.660555Z [140] (0x2055a0240) Loaded Persona Generation ID from manifest:1
+2025-01-07 12:44:25.244975Z [140] (0x2055a0240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-07 12:44:25.245192Z [140] (0x2055a0240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-07 12:44:25.245382Z [140] (0x2055a0240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-07 12:44:25.245418Z [140] (0x2055a0240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-07 12:44:25.245455Z [140] (0x2055a0240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 12:44:25.245479Z [140] (0x2055a0240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 12:44:25.245543Z [140] (0x2055a0240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 12:44:25.245625Z [140] (0x2055a0240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 12:44:25.257873Z [140] (0x2055a0240) Discovering loaded persona and setting up asid map
+2025-01-07 12:44:34.649821Z [140] (0x16f9c7000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100004, auid:501
+2025-01-07 12:44:34.650986Z [140] (0x16f9c7000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100004
+2025-01-07 12:44:34.651064Z [140] (0x16f9c7000) Path: /private/var/db//keybags already exists
+2025-01-07 12:44:34.651106Z [140] (0x16f9c7000) PersonaID:99 not loaded, loading..
+2025-01-07 12:44:34.651154Z [140] (0x16f9c7000) PersonaID:1001 not loaded, loading..
+2025-01-07 12:44:34.653221Z [140] (0x16f9c7000) PersonaID:199 not loaded, loading..
+2025-01-07 12:44:34.655253Z [140] (0x16f9c7000) setup kernel personas
+2025-01-07 12:44:34.655309Z [140] (0x16f9c7000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100004
+2025-01-07 12:44:34.655359Z [140] (0x16f9c7000) Update asid:100004 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 12:44:35.609196Z [140] (0x16f9c7000) In UMSyncServer: fetchPersona entitlement failure:445
+2025-01-07 12:44:36.151821Z [140] (0x16f9c7000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100004
+2025-01-07 12:44:36.151903Z [140] (0x16f9c7000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-07 12:44:36.155294Z [140] (0x16f9c7000) Successful Persona Observer registration of machServiceName
+2025-01-07 12:46:49.943523Z [140] (0x16f9c7000) In UMSyncServer: fetchPersona entitlement failure:524
+2025-01-07 12:46:49.944037Z [140] (0x16fa53000) In UMSyncServer: fetchPersona entitlement failure:492
+2025-01-07 12:46:49.945894Z [140] (0x16fa53000) In UMSyncServer: fetchPersona entitlement failure:722
+2025-01-07 12:50:10.363193Z [140] (0x16fadf000) In UMSyncServer: fetchPersona entitlement failure:544
+2025-01-07 13:00:52.079631Z [140] (0x16fa53000) In UMSyncServer: fetchPersona entitlement failure:1685
+2025-01-07 13:08:54.511412Z [140] (0x16fadf000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-01-07 13:08:54.511967Z [140] (0x16fadf000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-01-07 13:08:54.512295Z [140] (0x16fadf000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-07 13:08:54.512313Z [140] (0x16fadf000) Skipping unloading of Universal,System, System Proxy
+2025-01-07 13:08:54.512326Z [140] (0x16fadf000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-01-07 13:08:54.512341Z [140] (0x16fadf000) Unloaded PersonaID:1001 from Kernel
+2025-01-07 13:08:54.512350Z [140] (0x16fadf000) Skipping unloading of Universal,System, System Proxy
+2025-01-07 13:08:54.512361Z [140] (0x16fadf000) Skipping unloading of Universal,System, System Proxy
+2025-01-07 13:08:54.512369Z [140] (0x16fadf000) Saving Persona Manifest during unload
+2025-01-07 13:08:54.517323Z [140] (0x16fadf000) All Persona Unload success
+2025-01-07 13:08:54.517340Z [140] (0x16fadf000) unLoading All persona Success
+2025-01-08 12:33:16.195137Z [140] (0x1f7de4240) Loaded Persona Generation ID from manifest:1
+2025-01-08 12:33:16.223241Z [140] (0x1f7de4240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-08 12:33:16.223340Z [140] (0x1f7de4240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-08 12:33:16.223369Z [140] (0x1f7de4240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-08 12:33:16.223391Z [140] (0x1f7de4240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-08 12:33:16.223418Z [140] (0x1f7de4240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-08 12:33:16.223438Z [140] (0x1f7de4240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-08 12:33:16.223479Z [140] (0x1f7de4240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-08 12:33:16.223579Z [140] (0x1f7de4240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-01-08 12:33:16.245819Z [140] (0x1f7de4240) Discovering loaded persona and setting up asid map
+2025-01-08 12:33:31.580970Z [140] (0x16f7d3000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-01-08 12:33:31.583716Z [140] (0x16f7d3000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-01-08 12:33:31.583757Z [140] (0x16f7d3000) Path: /private/var/db//keybags already exists
+2025-01-08 12:33:31.583802Z [140] (0x16f7d3000) PersonaID:99 not loaded, loading..
+2025-01-08 12:33:31.583848Z [140] (0x16f7d3000) PersonaID:1001 not loaded, loading..
+2025-01-08 12:33:31.585835Z [140] (0x16f7d3000) PersonaID:199 not loaded, loading..
+2025-01-08 12:33:31.587241Z [140] (0x16f7d3000) setup kernel personas
+2025-01-08 12:33:31.587297Z [140] (0x16f7d3000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-01-08 12:33:31.587325Z [140] (0x16f7d3000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-01-08 12:33:32.724647Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:436
+2025-01-08 12:33:32.778463Z [140] (0x16f7d3000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-01-08 12:33:32.778530Z [140] (0x16f7d3000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-01-08 12:33:32.785113Z [140] (0x16f7d3000) Successful Persona Observer registration of machServiceName
+2025-01-08 12:36:59.070473Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:973
+2025-01-09 13:28:04.756310Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:2223
+2025-01-09 13:29:07.051946Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:2250
+2025-01-11 08:02:57.513937Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:4114
+2025-01-11 08:05:09.912158Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:4415
+2025-01-11 08:27:32.366550Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:5748
+2025-01-14 14:34:27.798906Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:8355
+2025-01-16 12:28:03.526739Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:5380
+2025-01-16 12:28:03.527165Z [140] (0x16f8eb000) In UMSyncServer: fetchPersona entitlement failure:5694
+2025-01-16 12:28:03.527241Z [140] (0x16f977000) In UMSyncServer: fetchPersona entitlement failure:478
+2025-01-16 12:28:03.530369Z [140] (0x16f8eb000) In UMSyncServer: fetchPersona entitlement failure:508
+2025-01-16 12:28:03.530564Z [140] (0x16f8eb000) In UMSyncServer: fetchPersona entitlement failure:726
+2025-01-16 12:33:39.228350Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:10136
+2025-01-19 03:39:31.030296Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:12062
+2025-01-19 03:42:13.895250Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:12330
+2025-01-19 03:42:44.624472Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:12356
+2025-01-19 03:45:15.456574Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:12410
+2025-01-19 04:06:19.418667Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:12845
+2025-01-20 13:44:56.664034Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:14139
+2025-01-31 08:32:14.285814Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:20919
+2025-01-31 08:32:44.525677Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:20942
+2025-01-31 08:50:20.560569Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21170
+2025-01-31 08:50:20.561885Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21170
+2025-01-31 08:50:20.589128Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21170
+2025-01-31 09:54:46.441733Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21542
+2025-01-31 09:54:46.443456Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21542
+2025-01-31 09:54:46.450502Z [140] (0x16f85f000) In UMSyncServer: fetchPersona entitlement failure:21542
+2025-01-31 10:58:10.160224Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:23382
+2025-01-31 10:58:10.161747Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:23382
+2025-01-31 10:58:10.167203Z [140] (0x16f7d3000) In UMSyncServer: fetchPersona entitlement failure:23382
+2025-02-16 07:05:30.163697Z [142] (0x1fb5cc240) Loaded Persona Generation ID from manifest:1
+2025-02-16 07:05:30.205290Z [142] (0x1fb5cc240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:05:30.205371Z [142] (0x1fb5cc240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:05:30.205399Z [142] (0x1fb5cc240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:05:30.205421Z [142] (0x1fb5cc240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:05:30.205445Z [142] (0x1fb5cc240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:05:30.205467Z [142] (0x1fb5cc240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:05:30.205487Z [142] (0x1fb5cc240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:05:30.205507Z [142] (0x1fb5cc240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:05:30.233890Z [142] (0x1fb5cc240) Discovering loaded persona and setting up asid map
+2025-02-16 07:06:34.685600Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.686566Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.687282Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.688004Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.692361Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.692644Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.692849Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.692980Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.693095Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.693277Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:06:34.755460Z [142] (0x16bb0b000) In UMSyncServer: No persona array OK:423
+2025-02-16 07:19:20.214573Z [142] (0x1f3328240) Loaded Persona Generation ID from manifest:1
+2025-02-16 07:19:20.221723Z [142] (0x1f3328240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:19:20.221815Z [142] (0x1f3328240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:19:20.221851Z [142] (0x1f3328240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:19:20.221875Z [142] (0x1f3328240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:19:20.221907Z [142] (0x1f3328240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:19:20.221930Z [142] (0x1f3328240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:19:20.221949Z [142] (0x1f3328240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:19:20.221968Z [142] (0x1f3328240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:19:20.231644Z [142] (0x1f3328240) Discovering loaded persona and setting up asid map
+2025-02-16 07:26:11.890169Z [142] (0x1f777c240) Loaded Persona Generation ID from manifest:1
+2025-02-16 07:26:11.931486Z [142] (0x1f777c240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:26:11.931568Z [142] (0x1f777c240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:26:11.931599Z [142] (0x1f777c240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:26:11.931626Z [142] (0x1f777c240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:26:11.931652Z [142] (0x1f777c240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:26:11.931672Z [142] (0x1f777c240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:26:11.931714Z [142] (0x1f777c240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:26:11.931733Z [142] (0x1f777c240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-16 07:26:11.934680Z [142] (0x1f777c240) Discovering loaded persona and setting up asid map
+2025-02-16 07:26:22.814903Z [142] (0x16ee8f000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-02-16 07:26:22.814979Z [142] (0x16ee8f000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-02-16 07:26:22.814991Z [142] (0x16ee8f000) Path: /private/var/db//keybags already exists
+2025-02-16 07:26:22.815007Z [142] (0x16ee8f000) PersonaID:99 not loaded, loading..
+2025-02-16 07:26:22.815023Z [142] (0x16ee8f000) PersonaID:1001 not loaded, loading..
+2025-02-16 07:26:22.816328Z [142] (0x16ee8f000) PersonaID:199 not loaded, loading..
+2025-02-16 07:26:22.816346Z [142] (0x16ee8f000) setup kernel personas
+2025-02-16 07:26:22.816366Z [142] (0x16ee8f000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-02-16 07:26:22.816377Z [142] (0x16ee8f000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-16 07:26:24.185611Z [142] (0x16ee8f000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-02-16 07:26:24.185700Z [142] (0x16ee8f000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-02-16 07:26:24.187965Z [142] (0x16ee8f000) Successful Persona Observer registration of machServiceName
+2025-02-16 07:26:24.622838Z [142] (0x16ef1b000) In UMSyncServer: fetchPersona entitlement failure:444
+2025-02-16 07:26:24.623179Z [142] (0x16ee8f000) In UMSyncServer: fetchPersona entitlement failure:502
+2025-02-16 07:30:04.700759Z [142] (0x16f033000) In UMSyncServer: fetchPersona entitlement failure:1155
+2025-02-16 07:31:46.704628Z [142] (0x16ee8f000) In UMSyncServer: fetchPersona entitlement failure:1194
+2025-02-25 12:01:43.229528Z [142] (0x206ffc240) Loaded Persona Generation ID from manifest:1
+2025-02-25 12:01:43.262254Z [142] (0x206ffc240) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-25 12:01:43.263860Z [142] (0x206ffc240) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-25 12:01:43.263917Z [142] (0x206ffc240) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-25 12:01:43.264041Z [142] (0x206ffc240) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-02-25 12:01:43.265068Z [142] (0x206ffc240) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-25 12:01:43.265337Z [142] (0x206ffc240) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-25 12:01:43.265395Z [142] (0x206ffc240) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-25 12:01:43.265823Z [142] (0x206ffc240) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-25 12:01:43.277105Z [142] (0x206ffc240) Discovering loaded persona and setting up asid map
+2025-02-25 12:01:55.312430Z [142] (0x16d9eb000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100004, auid:501
+2025-02-25 12:01:55.312518Z [142] (0x16d9eb000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100004
+2025-02-25 12:01:55.312533Z [142] (0x16d9eb000) Path: /private/var/db//keybags already exists
+2025-02-25 12:01:55.312549Z [142] (0x16d9eb000) PersonaID:99 not loaded, loading..
+2025-02-25 12:01:55.312564Z [142] (0x16d9eb000) PersonaID:1001 not loaded, loading..
+2025-02-25 12:01:55.314427Z [142] (0x16d9eb000) PersonaID:199 not loaded, loading..
+2025-02-25 12:01:55.314439Z [142] (0x16d9eb000) setup kernel personas
+2025-02-25 12:01:55.314453Z [142] (0x16d9eb000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100004
+2025-02-25 12:01:55.314462Z [142] (0x16d9eb000) Update asid:100004 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-02-25 12:01:56.347916Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:467
+2025-02-25 12:01:57.091235Z [142] (0x16db8f000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100004
+2025-02-25 12:01:57.091305Z [142] (0x16db8f000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-02-25 12:01:57.093929Z [142] (0x16db8f000) Successful Persona Observer registration of machServiceName
+2025-02-26 13:15:13.715093Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:504
+2025-02-26 13:15:13.715865Z [142] (0x16da77000) In UMSyncServer: fetchPersona entitlement failure:503
+2025-02-26 13:15:13.725979Z [142] (0x16da77000) In UMSyncServer: fetchPersona entitlement failure:643
+2025-02-26 13:15:13.730461Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:526
+2025-02-26 13:18:13.558030Z [142] (0x16da77000) In UMSyncServer: fetchPersona entitlement failure:561
+2025-02-26 13:30:46.356489Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2030
+2025-02-26 13:30:50.868243Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2131
+2025-02-26 13:30:50.869154Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2131
+2025-02-26 13:30:50.878079Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2131
+2025-02-26 14:19:58.183238Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2864
+2025-02-26 14:33:06.635369Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2955
+2025-02-26 14:33:06.637359Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:2955
+2025-02-26 14:33:06.647150Z [142] (0x16da77000) In UMSyncServer: fetchPersona entitlement failure:2955
+2025-03-02 07:13:23.660265Z [142] (0x16d9eb000) In UMSyncServer: fetchPersona entitlement failure:7435
+2025-03-02 07:32:11.335105Z [142] (0x16db03000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-03-02 07:32:11.335468Z [142] (0x16db03000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-03-02 07:32:11.335497Z [142] (0x16db03000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:32:11.335514Z [142] (0x16db03000) Skipping unloading of Universal,System, System Proxy
+2025-03-02 07:32:11.335523Z [142] (0x16db03000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-03-02 07:32:11.335551Z [142] (0x16db03000) Unloaded PersonaID:1001 from Kernel
+2025-03-02 07:32:11.335559Z [142] (0x16db03000) Skipping unloading of Universal,System, System Proxy
+2025-03-02 07:32:11.335565Z [142] (0x16db03000) Skipping unloading of Universal,System, System Proxy
+2025-03-02 07:32:11.335570Z [142] (0x16db03000) Saving Persona Manifest during unload
+2025-03-02 07:32:11.338402Z [142] (0x16db03000) All Persona Unload success
+2025-03-02 07:32:11.338434Z [142] (0x16db03000) unLoading All persona Success
+2025-03-02 07:37:36.680860Z [560] (0x1f569c840) Loaded Persona Generation ID from manifest:1
+2025-03-02 07:37:36.715651Z [560] (0x1f569c840) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:37:36.716302Z [560] (0x1f569c840) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:37:36.716441Z [560] (0x1f569c840) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:37:36.716755Z [560] (0x1f569c840) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:37:36.716797Z [560] (0x1f569c840) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-02 07:37:36.716844Z [560] (0x1f569c840) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-02 07:37:36.716873Z [560] (0x1f569c840) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-02 07:37:36.716899Z [560] (0x1f569c840) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-02 07:37:36.733025Z [560] (0x1f569c840) Discovering loaded persona and setting up asid map
+2025-03-02 07:37:54.245365Z [560] (0x16b07b000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100014, auid:501
+2025-03-02 07:37:54.245634Z [560] (0x16b07b000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100014
+2025-03-02 07:37:54.245648Z [560] (0x16b07b000) Path: /private/var/db//keybags already exists
+2025-03-02 07:37:54.245666Z [560] (0x16b07b000) PersonaID:99 not loaded, loading..
+2025-03-02 07:37:54.245687Z [560] (0x16b07b000) PersonaID:1001 not loaded, loading..
+2025-03-02 07:37:54.256859Z [560] (0x16b07b000) PersonaID:199 not loaded, loading..
+2025-03-02 07:37:54.256887Z [560] (0x16b07b000) setup kernel personas
+2025-03-02 07:37:54.256908Z [560] (0x16b07b000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100014
+2025-03-02 07:37:54.256925Z [560] (0x16b07b000) Update asid:100014 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-02 07:38:04.021407Z [560] (0x16b07b000) In UMSyncServer: fetchPersona entitlement failure:685
+2025-03-02 07:38:04.826940Z [560] (0x16b193000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100014
+2025-03-02 07:38:04.827059Z [560] (0x16b193000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-03-02 07:38:04.828649Z [560] (0x16b193000) Successful Persona Observer registration of machServiceName
+2025-03-02 07:38:15.072474Z [560] (0x16b193000) In UMSyncServer: fetchPersona entitlement failure:1220
+2025-03-02 07:38:23.072163Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:23.251096Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:23.265191Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:23.276134Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:23.285382Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:23.295081Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1320
+2025-03-02 07:38:36.698662Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:38:36.741440Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:38:36.745547Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:38:36.748935Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:38:36.752347Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:38:36.755994Z [560] (0x16b21f000) In UMSyncServer: fetchPersona entitlement failure:1479
+2025-03-02 07:44:25.891355Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1849
+2025-03-08 07:06:10.342881Z [560] (0x16b07b000) In UMSyncServer: fetchPersona entitlement failure:3497
+2025-03-08 07:06:10.343965Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1210
+2025-03-08 07:06:10.344057Z [560] (0x16b193000) In UMSyncServer: fetchPersona entitlement failure:3556
+2025-03-08 07:06:10.347265Z [560] (0x16b193000) In UMSyncServer: fetchPersona entitlement failure:1342
+2025-03-08 07:06:10.347353Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:1441
+2025-03-08 07:08:14.023260Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:3722
+2025-03-08 07:53:13.702293Z [560] (0x16b07b000) In UMSyncServer: fetchPersona entitlement failure:1404
+2025-03-21 13:41:02.272290Z [560] (0x16b07b000) In UMSyncServer: fetchPersona entitlement failure:7798
+2025-03-21 13:57:53.379116Z [560] (0x16b07b000) In UMSyncServer: fetchPersona entitlement failure:9078
+2025-03-23 02:05:55.158466Z [560] (0x16b107000) In UMSyncServer: fetchPersona entitlement failure:10318
+2025-03-23 02:06:35.241213Z [560] (0x16b107000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-03-23 02:06:35.241257Z [560] (0x16b107000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-03-23 02:06:35.241276Z [560] (0x16b107000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:06:35.241287Z [560] (0x16b107000) Skipping unloading of Universal,System, System Proxy
+2025-03-23 02:06:35.241295Z [560] (0x16b107000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-03-23 02:06:35.241306Z [560] (0x16b107000) Unloaded PersonaID:1001 from Kernel
+2025-03-23 02:06:35.241311Z [560] (0x16b107000) Skipping unloading of Universal,System, System Proxy
+2025-03-23 02:06:35.241316Z [560] (0x16b107000) Skipping unloading of Universal,System, System Proxy
+2025-03-23 02:06:35.241321Z [560] (0x16b107000) Saving Persona Manifest during unload
+2025-03-23 02:06:35.246553Z [560] (0x16b107000) All Persona Unload success
+2025-03-23 02:06:35.246573Z [560] (0x16b107000) unLoading All persona Success
+2025-03-23 02:06:35.261804Z [560] (0x16b21f000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100014
+2025-03-23 02:06:35.261867Z [560] (0x16b21f000)  NO PERSONAL PERSONA found
+2025-03-23 02:06:35.261883Z [560] (0x16b21f000) Failed to register Persona Observer:com.apple.searchd.personaobserver
+2025-03-23 02:10:23.915259Z [561] (0x1ff8b0840) Loaded Persona Generation ID from manifest:1
+2025-03-23 02:10:24.014951Z [561] (0x1ff8b0840) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:10:24.015801Z [561] (0x1ff8b0840) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:10:24.015832Z [561] (0x1ff8b0840) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:10:24.015859Z [561] (0x1ff8b0840) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:10:24.015885Z [561] (0x1ff8b0840) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-23 02:10:24.015907Z [561] (0x1ff8b0840) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-23 02:10:24.018667Z [561] (0x1ff8b0840) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-23 02:10:24.018717Z [561] (0x1ff8b0840) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-03-23 02:10:24.029338Z [561] (0x1ff8b0840) Discovering loaded persona and setting up asid map
+2025-03-23 02:10:41.763885Z [561] (0x16b09f000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100011, auid:501
+2025-03-23 02:10:41.764197Z [561] (0x16b09f000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100011
+2025-03-23 02:10:41.764228Z [561] (0x16b09f000) Path: /private/var/db//keybags already exists
+2025-03-23 02:10:41.764247Z [561] (0x16b09f000) PersonaID:99 not loaded, loading..
+2025-03-23 02:10:41.764265Z [561] (0x16b09f000) PersonaID:1001 not loaded, loading..
+2025-03-23 02:10:41.769135Z [561] (0x16b09f000) PersonaID:199 not loaded, loading..
+2025-03-23 02:10:41.769150Z [561] (0x16b09f000) setup kernel personas
+2025-03-23 02:10:41.769165Z [561] (0x16b09f000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100011
+2025-03-23 02:10:41.769173Z [561] (0x16b09f000) Update asid:100011 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-03-23 02:10:52.447811Z [561] (0x16b12b000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100011
+2025-03-23 02:10:52.447899Z [561] (0x16b12b000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-03-23 02:10:52.463573Z [561] (0x16b12b000) Successful Persona Observer registration of machServiceName
+2025-03-23 02:10:52.987494Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:741
+2025-03-23 02:11:10.486545Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.534794Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.539633Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.544230Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.547832Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.552733Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1287
+2025-03-23 02:11:10.672818Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:1224
+2025-03-23 02:11:26.754633Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:11:26.778797Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:11:26.782728Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:11:26.785832Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:11:26.788855Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:11:26.792001Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1391
+2025-03-23 02:24:52.107200Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1871
+2025-03-23 02:24:52.109213Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1871
+2025-03-23 02:24:52.123247Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1871
+2025-03-23 04:51:14.434557Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:1866
+2025-03-26 14:11:55.094654Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1390
+2025-03-26 14:11:55.094866Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:2275
+2025-03-26 14:11:55.094924Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1256
+2025-03-26 14:11:55.095083Z [561] (0x16b1b7000) In UMSyncServer: fetchPersona entitlement failure:1195
+2025-03-26 14:11:55.096700Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1178
+2025-03-26 14:11:55.096774Z [561] (0x16b1b7000) In UMSyncServer: fetchPersona entitlement failure:1866
+2025-03-26 14:11:55.100326Z [561] (0x16b243000) In UMSyncServer: fetchPersona entitlement failure:1248
+2025-03-26 15:42:27.083695Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:1351
+2025-03-29 05:23:35.147954Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1390
+2025-03-29 05:23:52.730425Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:1390
+2025-03-29 05:31:47.924135Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:4874
+2025-03-29 05:32:00.728999Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:4886
+2025-03-29 05:49:44.460274Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:5763
+2025-03-29 05:49:50.166520Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:5777
+2025-04-02 13:43:19.299922Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17015
+2025-04-02 13:43:19.301326Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17015
+2025-04-02 13:43:19.309860Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17015
+2025-04-02 13:49:47.078385Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17164
+2025-04-02 13:49:47.079722Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17164
+2025-04-02 13:49:47.083672Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17164
+2025-04-02 13:50:03.569176Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17177
+2025-04-02 13:50:44.617710Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17211
+2025-04-02 13:50:44.618740Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17211
+2025-04-02 13:50:44.622588Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17211
+2025-04-02 14:37:17.535659Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17927
+2025-04-02 14:38:09.491588Z [561] (0x16b12b000) In UMSyncServer: fetchPersona entitlement failure:17948
+2025-04-02 14:38:21.564616Z [561] (0x16b09f000) In UMSyncServer: fetchPersona entitlement failure:17967
+2025-04-02 14:40:59.537283Z [561] (0x16b12b000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-04-02 14:40:59.537815Z [561] (0x16b12b000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-04-02 14:40:59.537902Z [561] (0x16b12b000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:40:59.537919Z [561] (0x16b12b000) Skipping unloading of Universal,System, System Proxy
+2025-04-02 14:40:59.537930Z [561] (0x16b12b000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-04-02 14:40:59.537943Z [561] (0x16b12b000) Unloaded PersonaID:1001 from Kernel
+2025-04-02 14:40:59.537949Z [561] (0x16b12b000) Skipping unloading of Universal,System, System Proxy
+2025-04-02 14:40:59.537954Z [561] (0x16b12b000) Skipping unloading of Universal,System, System Proxy
+2025-04-02 14:40:59.537958Z [561] (0x16b12b000) Saving Persona Manifest during unload
+2025-04-02 14:40:59.540354Z [561] (0x16b12b000) All Persona Unload success
+2025-04-02 14:40:59.540435Z [561] (0x16b12b000) unLoading All persona Success
+2025-04-02 14:41:22.561879Z [142] (0x1fcff8840) Loaded Persona Generation ID from manifest:1
+2025-04-02 14:41:22.586614Z [142] (0x1fcff8840) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-02 14:41:22.586702Z [142] (0x1fcff8840) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-02 14:41:22.586737Z [142] (0x1fcff8840) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-02 14:41:22.586762Z [142] (0x1fcff8840) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-02 14:41:22.586794Z [142] (0x1fcff8840) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:41:22.586817Z [142] (0x1fcff8840) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:41:22.586839Z [142] (0x1fcff8840) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:41:22.586859Z [142] (0x1fcff8840) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:41:22.608621Z [142] (0x1fcff8840) Discovering loaded persona and setting up asid map
+2025-04-02 14:41:36.388425Z [142] (0x16d49b000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-04-02 14:41:36.388617Z [142] (0x16d49b000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-04-02 14:41:36.388647Z [142] (0x16d49b000) Path: /private/var/db//keybags already exists
+2025-04-02 14:41:36.388686Z [142] (0x16d49b000) PersonaID:99 not loaded, loading..
+2025-04-02 14:41:36.388730Z [142] (0x16d49b000) PersonaID:1001 not loaded, loading..
+2025-04-02 14:41:36.391939Z [142] (0x16d49b000) PersonaID:199 not loaded, loading..
+2025-04-02 14:41:36.392880Z [142] (0x16d49b000) setup kernel personas
+2025-04-02 14:41:36.392922Z [142] (0x16d49b000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-04-02 14:41:36.392950Z [142] (0x16d49b000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-02 14:41:37.648105Z [142] (0x16d5b3000) In UMSyncServer: fetchPersona entitlement failure:504
+2025-04-02 14:41:37.653395Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:474
+2025-04-02 14:41:37.851594Z [142] (0x16d527000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-04-02 14:41:37.851670Z [142] (0x16d527000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-04-02 14:41:37.855668Z [142] (0x16d527000) Successful Persona Observer registration of machServiceName
+2025-04-02 14:42:40.217824Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:840
+2025-04-02 14:46:28.138276Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:982
+2025-04-02 14:54:56.852822Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:1131
+2025-04-02 14:54:56.853786Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:1131
+2025-04-02 14:54:56.858659Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:1131
+2025-04-03 09:09:59.844425Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:1057
+2025-04-04 07:26:02.804194Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:1912
+2025-04-08 15:19:01.753094Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:2591
+2025-04-08 15:19:01.754140Z [142] (0x16d5b3000) In UMSyncServer: fetchPersona entitlement failure:1679
+2025-04-08 15:19:01.756736Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:536
+2025-04-08 15:19:01.759765Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:1057
+2025-04-08 15:19:01.762652Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:524
+2025-04-08 15:19:01.765023Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:715
+2025-04-08 15:28:04.371013Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:4079
+2025-04-08 15:28:12.040778Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:4098
+2025-04-08 15:28:12.041874Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:4098
+2025-04-08 15:28:12.079978Z [142] (0x16d527000) In UMSyncServer: fetchPersona entitlement failure:4098
+2025-04-08 16:56:30.294008Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:2282
+2025-04-13 07:56:52.851510Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:5743
+2025-04-14 15:00:29.402262Z [142] (0x16d49b000) In UMSyncServer: fetchPersona entitlement failure:20377
+2025-04-14 15:02:00.241157Z [142] (0x16d49b000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-04-14 15:02:00.241511Z [142] (0x16d49b000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-04-14 15:02:00.241651Z [142] (0x16d49b000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:00.241672Z [142] (0x16d49b000) Skipping unloading of Universal,System, System Proxy
+2025-04-14 15:02:00.241682Z [142] (0x16d49b000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-04-14 15:02:00.241696Z [142] (0x16d49b000) Unloaded PersonaID:1001 from Kernel
+2025-04-14 15:02:00.241705Z [142] (0x16d49b000) Skipping unloading of Universal,System, System Proxy
+2025-04-14 15:02:00.241712Z [142] (0x16d49b000) Skipping unloading of Universal,System, System Proxy
+2025-04-14 15:02:00.241719Z [142] (0x16d49b000) Saving Persona Manifest during unload
+2025-04-14 15:02:00.247557Z [142] (0x16d49b000) All Persona Unload success
+2025-04-14 15:02:00.247592Z [142] (0x16d49b000) unLoading All persona Success
+2025-04-14 15:02:00.274311Z [142] (0x16d49b000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-04-14 15:02:00.274400Z [142] (0x16d49b000)  NO PERSONAL PERSONA found
+2025-04-14 15:02:00.274419Z [142] (0x16d49b000) Failed to register Persona Observer:com.apple.searchd.personaobserver
+2025-04-14 15:02:23.471210Z [142] (0x1f91e0840) Loaded Persona Generation ID from manifest:1
+2025-04-14 15:02:23.650560Z [142] (0x1f91e0840) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-14 15:02:23.650627Z [142] (0x1f91e0840) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-14 15:02:23.650655Z [142] (0x1f91e0840) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-14 15:02:23.650677Z [142] (0x1f91e0840) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-14 15:02:23.650877Z [142] (0x1f91e0840) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:23.655687Z [142] (0x1f91e0840) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:23.655858Z [142] (0x1f91e0840) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:23.655888Z [142] (0x1f91e0840) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:23.753441Z [142] (0x1f91e0840) Discovering loaded persona and setting up asid map
+2025-04-14 15:02:50.054875Z [142] (0x16f1b3000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-04-14 15:02:50.054994Z [142] (0x16f1b3000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-04-14 15:02:50.055017Z [142] (0x16f1b3000) Path: /private/var/db//keybags already exists
+2025-04-14 15:02:50.055042Z [142] (0x16f1b3000) PersonaID:99 not loaded, loading..
+2025-04-14 15:02:50.055066Z [142] (0x16f1b3000) PersonaID:1001 not loaded, loading..
+2025-04-14 15:02:50.059973Z [142] (0x16f1b3000) PersonaID:199 not loaded, loading..
+2025-04-14 15:02:50.059990Z [142] (0x16f1b3000) setup kernel personas
+2025-04-14 15:02:50.060007Z [142] (0x16f1b3000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-04-14 15:02:50.060020Z [142] (0x16f1b3000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-14 15:02:50.978648Z [142] (0x16f1b3000) In UMSyncServer: fetchPersona entitlement failure:491
+2025-04-14 15:02:51.943753Z [142] (0x16f1b3000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-04-14 15:02:51.943856Z [142] (0x16f1b3000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-04-14 15:02:51.945773Z [142] (0x16f1b3000) Successful Persona Observer registration of machServiceName
+2025-04-14 15:05:10.077117Z [142] (0x16f23f000) In UMSyncServer: fetchPersona entitlement failure:563
+2025-04-14 15:05:10.077289Z [142] (0x16f1b3000) In UMSyncServer: fetchPersona entitlement failure:750
+2025-04-14 15:05:10.077385Z [142] (0x16f357000) In UMSyncServer: fetchPersona entitlement failure:559
+2025-04-14 15:05:10.079707Z [142] (0x16f357000) In UMSyncServer: fetchPersona entitlement failure:716
+2025-04-14 15:10:46.306032Z [142] (0x16f357000) In UMSyncServer: fetchPersona entitlement failure:1001
+2025-04-14 16:40:53.403885Z [142] (0x16f23f000) In UMSyncServer: fetchPersona entitlement failure:648
+2025-04-16 12:37:25.560546Z [142] (0x16f23f000) In UMSyncServer: PersonaLogoutEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501
+2025-04-16 12:37:25.560927Z [142] (0x16f23f000) PERSONA LOGOUT for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501
+2025-04-16 12:37:25.560957Z [142] (0x16f23f000) Unloading kernel personas for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:25.560975Z [142] (0x16f23f000) Skipping unloading of Universal,System, System Proxy
+2025-04-16 12:37:25.560984Z [142] (0x16f23f000) Removing Persona with id:1001 and type:0, deallocating from kernel
+2025-04-16 12:37:25.561011Z [142] (0x16f23f000) Unloaded PersonaID:1001 from Kernel
+2025-04-16 12:37:25.561018Z [142] (0x16f23f000) Skipping unloading of Universal,System, System Proxy
+2025-04-16 12:37:25.561025Z [142] (0x16f23f000) Skipping unloading of Universal,System, System Proxy
+2025-04-16 12:37:25.561031Z [142] (0x16f23f000) Saving Persona Manifest during unload
+2025-04-16 12:37:25.566019Z [142] (0x16f23f000) All Persona Unload success
+2025-04-16 12:37:25.566276Z [142] (0x16f23f000) unLoading All persona Success
+2025-04-16 12:37:45.347044Z [142] (0x1fc64c840) Loaded Persona Generation ID from manifest:1
+2025-04-16 12:37:45.356944Z [142] (0x1fc64c840) Adding 99 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-16 12:37:45.357723Z [142] (0x1fc64c840) Adding 1000 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-16 12:37:45.357765Z [142] (0x1fc64c840) Adding 0 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-16 12:37:45.357788Z [142] (0x1fc64c840) Adding 199 entry to persona Table for user:FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+2025-04-16 12:37:45.357812Z [142] (0x1fc64c840) Adding 99 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:45.357836Z [142] (0x1fc64c840) Adding 1001 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:45.357855Z [142] (0x1fc64c840) Adding 0 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:45.357873Z [142] (0x1fc64c840) Adding 199 entry to persona Table for user:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:45.385353Z [142] (0x1fc64c840) Discovering loaded persona and setting up asid map
+2025-04-16 12:37:57.270453Z [142] (0x16f1a7000) In UMSyncServer: PersonaLoginEvent:ODUUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, uid:501, asid:100003, auid:501
+2025-04-16 12:37:57.273174Z [142] (0x16f1a7000) PERSONA LOGIN for USER:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F, UID:501, asid:100003
+2025-04-16 12:37:57.273219Z [142] (0x16f1a7000) Path: /private/var/db//keybags already exists
+2025-04-16 12:37:57.273249Z [142] (0x16f1a7000) PersonaID:99 not loaded, loading..
+2025-04-16 12:37:57.273284Z [142] (0x16f1a7000) PersonaID:1001 not loaded, loading..
+2025-04-16 12:37:57.275175Z [142] (0x16f1a7000) PersonaID:199 not loaded, loading..
+2025-04-16 12:37:57.277077Z [142] (0x16f1a7000) setup kernel personas
+2025-04-16 12:37:57.277117Z [142] (0x16f1a7000) Updating AsidMapping with user UUID:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F with asid:100003
+2025-04-16 12:37:57.277143Z [142] (0x16f1a7000) Update asid:100003 to UUID String:30EAD49B-2CC3-4D20-88F1-BC62A92FCF7F
+2025-04-16 12:37:58.331414Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:391
+2025-04-16 12:37:58.602017Z [142] (0x16f233000) Registering PersonaObserver with machService:com.apple.searchd.personaobserver with asid:100003
+2025-04-16 12:37:58.602093Z [142] (0x16f233000) Updated Registered machService list is (
+    "com.apple.searchd.personaobserver"
+)
+2025-04-16 12:37:58.607135Z [142] (0x16f233000) Successful Persona Observer registration of machServiceName
+2025-04-16 12:37:59.455706Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:521
+2025-04-16 14:09:00.904664Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:1687
+2025-04-16 15:24:45.739720Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:2396
+2025-04-16 15:24:45.742254Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:2396
+2025-04-16 15:24:45.752960Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:2396
+2025-04-18 12:29:49.996237Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:7444
+2025-04-18 12:55:15.406125Z [142] (0x16f2bf000) In UMSyncServer: fetchPersona entitlement failure:7391
+2025-04-18 12:55:15.406247Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:1798
+2025-04-18 12:55:15.406286Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:7445
+2025-04-18 12:55:15.409659Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:632
+2025-04-18 12:55:15.413000Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:7444
+2025-04-18 12:55:15.415388Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:1986
+2025-04-18 12:55:15.415740Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:7456
+2025-04-18 12:55:15.416001Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:513
+2025-04-18 12:55:15.416104Z [142] (0x16f2bf000) In UMSyncServer: fetchPersona entitlement failure:940
+2025-04-18 13:22:41.309079Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:7564
+2025-04-18 19:23:15.200982Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:1986
+2025-04-20 03:25:30.425252Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:10401
+2025-05-08 13:14:42.334969Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:18813
+2025-05-08 13:27:51.469053Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:20346
+2025-05-08 13:52:08.165052Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:20793
+2025-05-08 13:52:08.167476Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:20793
+2025-05-08 13:52:08.176221Z [142] (0x16f1a7000) In UMSyncServer: fetchPersona entitlement failure:20793
+2025-05-11 01:40:45.331518Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:84542
+2025-05-17 05:32:27.774362Z [142] (0x16f233000) In UMSyncServer: fetchPersona entitlement failure:38063
